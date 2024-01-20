@@ -1,0 +1,6 @@
+data/fr.eeyjrm.Hello.desktop.in
+data/fr.eeyjrm.Hello.metainfo.xml.in
+data/fr.eeyjrm.Hello.gschema.xml
+src/main.py
+src/window.py
+src/window.ui
