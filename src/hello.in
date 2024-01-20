@@ -31,9 +31,10 @@ localedir = '@localedir@'
 
 sys.path.insert(1, pkgdatadir)
 signal.signal(signal.SIGINT, signal.SIG_DFL)
-locale.bindtextdomain('hello', localedir)
-locale.textdomain('hello')
-gettext.install('hello', localedir)
+locale.bindtextdomain("@PROJECT_NAME@", "@localedir@")
+locale.textdomain("@PROJECT_NAME@")
+gettext.bindtextdomain("@PROJECT_NAME@", "@localedir@")
+gettext.textdomain("@PROJECT_NAME@")
 
 if __name__ == '__main__':
     import gi

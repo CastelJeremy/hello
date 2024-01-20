@@ -7,7 +7,8 @@ project('hello',
 i18n = import('i18n')
 gnome = import('gnome')
 
-
+application_id = 'fr.eeyjrm.Hello'
+name = 'Hello'
 
 subdir('data')
 subdir('src')
